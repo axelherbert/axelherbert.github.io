@@ -37,6 +37,9 @@ h1, h2, h3, h4, h5 {
 h2 {
   font-size: 25px; }
 
+h3 {
+  font-size: 22px; }
+
 a {
   -webkit-transition: .3s all;
   -o-transition: .3s all;
@@ -569,14 +572,15 @@ a {
     display: block; }
 
 .site-footer {
-  padding: 3em 0; }
+  padding: 2em 0;
+  background-color: #333; }
   .site-footer p:last-child {
     margin-bottom: 0; }
   .site-footer .social-item {
     display: inline-block;
     width: 60px;
     height: 60px;
-    background: #333;
+    background: rgb(0, 0, 0);
     position: relative;
     border-radius: 50%;
     font-size: 22px;
